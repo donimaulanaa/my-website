@@ -1,0 +1,236 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #1b1919;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 40px;
+    background-color: #1b1919;
+    border-bottom: 2px solid #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar .navbar-logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #972f2f;
+    font-style: italic;
+}
+
+.navbar .navbar-logo span {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav  a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+}
+
+.navbar-nav a:hover {
+    color: #972f2f;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+
+.dropdown-content {
+    padding: 30px 20px;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    color: black;
+}
+
+.dropdown-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.navbar .navbar-nav ul li a {
+    margin: 6px 0;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/image/b.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .content {
+    padding: 2rem 7%;
+    max-width: 60rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero .content h1 {
+    position: absolute;
+    top: 25%;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.hero .content h1 span {
+    color: #972f2f;
+}
+
+.hero .content p {
+    position: absolute;
+    top: 20%;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-right: 50%;
+}
+
+.about {
+    padding: 6rem 7% 0;
+}
+
+.about h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about h2 span {
+    color: #972f2f;
+}
+
+.about p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 40%;
+}
+
+.about .foto {
+    width: 360px;
+    height: 520px;
+    top: 20%;
+    margin-bottom: 2rem;
+    border: 2px solid #ffffff;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact .container h1 {
+    text-align: center;
+    padding: 14px;
+    color: #ffffff;
+}
+
+.contact .container form {
+    color: #ffffff;
+}
+
+form {
+    border: #fff 0.5px solid;
+    background-color: #1b1919;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #972f2f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-pribadi li{
+    list-style: none;
+}
+
+.contact-pribadi li a{
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+footer .socials {
+    padding: 1rem 0;
+}
+
+footer .socials a {
+    margin: 1rem;
+    color: #1b1919;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+    color: #972f2f;
+}
+
+footer .links {
+    margin-bottom: 1.4rem;
+}
+
+footer .links a {
+    color: #1b1919;
+    padding: 0.7rem 1rem;
+}
+
+footer .credit {
+    font-size: 0.8rem;
+}
+
+footer .credit a {
+    color: #1b1919;
+    font-weight: 700;
+}
