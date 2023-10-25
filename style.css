@@ -234,3 +234,15 @@ footer .credit a {
     color: #1b1919;
     font-weight: 700;
 }
+
+@media (max-width: 1336px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
