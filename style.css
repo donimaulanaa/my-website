@@ -67,6 +67,10 @@ body {
     padding: 0;
 }
 
+.dropdown .dropdown-content ul li a {
+    font-size: 14px;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
     padding-top: 20px;
@@ -200,7 +204,7 @@ footer {
     background-color: #ffffff;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 footer .socials {
@@ -208,7 +212,7 @@ footer .socials {
 }
 
 footer .socials a {
-    margin: 1rem;
+    margin: 0.5rem;
     color: #1b1919;
 }
 
@@ -218,7 +222,7 @@ footer .links a:hover {
 }
 
 footer .links {
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.7rem;
 }
 
 footer .links a {
@@ -234,3 +238,10 @@ footer .credit a {
     color: #1b1919;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
