@@ -119,6 +119,28 @@ body {
     margin-right: 50%;
 }
 
+.hero .content h3 {
+    position: absolute;
+    top: 36%;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.hero .content a {
+    background-color: #972f2f;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top: 43%;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.hero .content a:hover {
+    color: #1b1919;
+}
+
 .about {
     padding: 6rem 7% 0;
 }
